@@ -1,0 +1,286 @@
+@font-face {
+    font-family: "Roboyo-Bold";
+    src: url("/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Roboyo-Regular";
+    src: url("/Roboto-Regular.ttf");
+}
+
+/* Default Mobile Style Sign-up form start */
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Roboyo-Regular";
+
+}
+
+body, html {
+
+    overflow-x: hidden;
+}
+
+.main__container__start{
+    display:block;
+}
+
+.main__container__success{
+    display: none;
+}
+.main__container__start,
+.main__container__success {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 375px;
+    }
+
+.hero__image__mobile{
+    width: 375px;
+}
+
+.hero__image__desktop{
+    display:none;
+}
+
+.card__container{
+    margin: 2.5rem 2rem 2rem 2rem;
+}
+
+.card__title,
+.card__title__success{
+    font-family: "Roboyo-Bold";
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    margin-bottom:1.5rem;
+}
+
+.card__information{
+    font-size: 16px;
+     margin-bottom:1.5rem;
+}
+
+.card__feature{
+    display: flex;
+    margin-top:1rem;
+}
+
+.feature__svg{
+    height: 21px;
+    width: 21px;
+    margin-right:1rem;
+}
+
+.feature__text{
+
+}
+
+.card__email{
+    font-size: 12px;
+    font-weight: 800;
+    margin-top:3rem;
+    margin-bottom:1rem;
+}
+
+.card__email__input{
+ 
+}
+
+input{
+    padding-left:1rem;
+    font-size: 16px;
+    text-align: start;   
+    width: 282px;
+    height: 56px;
+    border: 0.1px solid gray;
+    opacity: 1;
+    border-radius: 5px;
+    
+}
+
+.card__subscribe,
+.card__dismiss-message{
+    font-family: "Roboyo-Bold";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: rgb(238, 238, 238);
+    width: 300px;
+    height: 56px;
+    margin-top:1.5rem;
+    border:none;
+    background-color:#000435;
+    border-radius: 10px;
+    border:1px solid #000435;
+}
+
+/* Invalid Input Style */
+.invalid__input {}
+
+
+.input__invalid {
+    background-color: #ff605534;
+    border:1px solid #ff6055;
+    color: #ff6055;;
+    font-weight: 400;
+}
+
+.invalid__email{
+    margin-left: 7rem;
+    color: #ff6055b4;
+    opacity: 0;
+}
+
+
+.displayOn {
+    opacity: 1;
+}
+
+.displayOff {
+    opacity: 0;
+}
+
+.switchStates{
+    display:none  !important;;
+}
+
+.switchStatesOn{
+    display:block  !important;
+}
+
+
+/* Default Mobile Style Sign-up form End */
+
+.mobile__success__wrapper{
+    margin-left: auto;
+    margin-right: auto;
+}
+.success__wrapper{
+    margin: 9rem 2rem 2rem 2rem;
+}
+
+.main__container__success{
+    margin-left: auto;
+    margin-right: auto;
+}
+span{
+    font-family:"Roboyo-Bold";
+    font-weight: 800;
+    line-height: 24px;
+}
+
+.hero__image__success{
+    height: 64px;
+    width:64px;
+    margin-bottom: 3rem;
+}
+
+.card__dismiss-message{
+    margin-top:18rem;
+}
+
+/* Desktop Styles Sign Up */
+
+@media (min-width:1440px){
+    body{
+        background-color: #242742;    
+    }
+
+    .hero__image__mobile{
+        display: none;
+    }
+
+    .hero__image__desktop{
+        display:flex;
+        margin: 1.5rem 1.5rem 1.5rem 1.5rem;
+    }
+
+    
+.main__container__start {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:5rem;
+        max-width: 928px;
+        max-height: 641px;
+        background-color: white;
+        border-radius: 28px;
+        display: flex;
+        flex-direction: row-reverse;
+}
+
+.card__title{
+    font-size:56px;
+    margin-bottom: 2rem;
+}
+
+.card__feature{
+    margin-bottom: 1.5rem;
+}
+
+.card__subscribe{
+    margin-top: 1.5rem;
+    width: 376px;
+}
+
+
+.card__subscribe:hover{
+   background-color:#FF6155;
+   transform: ease-in-out 200ms; 
+   cursor: pointer;
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+.card__email__input{
+    width: 355px;
+}
+
+.card__container{
+    margin: 4rem 3rem 3rem 4rem;
+}
+
+
+.main__container__success{
+   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:5rem;
+    max-width: 504px;
+    max-height: 520px;
+    background-color: white;
+    border-radius: 28px;
+
+}
+.success__wrapper{
+    margin: 2rem 3rem 2rem 3rem;
+    
+}
+
+.card__title__success {
+    font-size: 56px;
+}
+
+.hero__image__success{
+    margin: 2rem 0rem 2rem 0rem;
+}
+.card__title__success,
+.card__information__success{
+    margin: 0rem 0rem 1rem 0rem;
+}
+
+.card__dismiss-message
+{
+    margin: 1rem 0rem 3rem 0rem;
+}
+
+
+.invalid__email{
+    margin-left: 12rem;
+    color: #ff6055b4;;
+
+}
+}

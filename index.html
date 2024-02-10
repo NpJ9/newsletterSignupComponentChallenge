@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+<body>
+
+<!-- Sign-up form start -->
+
+<section class ="main__container__start" id ="main__container__start">
+
+          <img class ="hero__image__mobile" src="/assets/images/illustration-sign-up-mobile.svg">
+          <img class ="hero__image__desktop" src="/assets/images/illustration-sign-up-desktop.svg">
+
+
+          <div class ="card__container">
+              <div class = "card__title">Stay updated!</div>
+                <div class = "card__information">Join 60,000+ product managers receiving monthly updates on:</div>
+            
+
+                <div class = "card__feature">
+                  <img class ="feature__svg" src="/assets/images/icon-list.svg">
+                      <p class ="feature__text">Product discovery and building what matters</p>
+                </div>
+
+                <div class = "card__feature">
+                  <img class ="feature__svg" src="/assets/images/icon-list.svg">
+                      <p class ="feature__text">Measuring to ensure updates are a successs</p>
+                </div>
+
+                <div class = "card__feature">
+                  <img class ="feature__svg" src="/assets/images/icon-list.svg">
+                      <p class ="feature__text">And much more!</p>
+                </div>
+
+            <p class ="card__email"> Email address<span id ="invalid__email" class ="invalid__email">Valid email required</span></p>
+            <input class ="card__email__input" id="user__email" type ="email" placeholder ="email@company.com">
+
+            <button class ="card__subscribe" onclick="ValidateEmail()">Subscribe to monthly newsletter</button>
+        </div>
+</section>
+ 
+<!-- Sign-up form end -->
+
+ <!-- Success message start -->
+
+  <section class = "main__container__success" id="main__container__success">
+    <div class="success__wrapper">
+    <img class ="hero__image__success" src="/assets/images/icon-success.svg">
+      <div class ="card__title__success">Thanks for subscribing!</div>
+        <div class = "card__information__success"> A confirmation email has been sent to <span>ash@loremcompany.com</span>. 
+  Please open it and click the button inside to confirm your subscription.</div>
+            <button class ="card__dismiss-message" onclick="Dismiss()"> Dismiss message</button>
+          </div>
+  </section>
+
+ 
+<!-- Success message end -->
+
+  <script rel="script.js" src="script.js"></script>
+</body>
+</html>
